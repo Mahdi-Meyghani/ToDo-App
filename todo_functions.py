@@ -1,6 +1,6 @@
 """
 This is the requirements
-functions for main.py.
+functions for To-Dos.
 """
 
 FILEPATH = "todos.txt"

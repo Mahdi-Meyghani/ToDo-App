@@ -1,6 +1,12 @@
 # from todo_functions import get_todos
 import todo_functions
 import time
+import os
+
+
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
 
 now = time.strftime("%a, %b %d, %Y at %H:%M:%S")
 print("Today is", now)
